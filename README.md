@@ -33,11 +33,12 @@ To install this project, make sure you have the correct version of Python and Py
 - Switch to Python3.
 - Follow the code below to create virtual environment and install the necessary libraries.
 (Currently tested on Python 3.7.9 with Pygame 2.0.0dev8 and Python 3.8.2 with Pygame 2.0.0 on macOS Catalina)
+- Pay attention, you system might be different and you python installation might be called by another name, make sure 
+to adjust these commands - 
 ```
-git clone https://github.com/boosungkim/python-chess.git
-cd python-chess
+cd <your repository>
 python3 -m venv venv
-source venv/bin/activate
+.\venv\bin\activate
 pip install pygame
 ```
 
